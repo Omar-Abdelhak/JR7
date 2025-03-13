@@ -1,0 +1,35 @@
+body {
+  background-image: url(../images/main.jpg);
+  background-size: cover;
+  backdrop-filter: blur(4px);
+  background-color: #080524 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.soon {
+  background-color: #21196774;
+  width: 70%;
+  height: 60%;
+  border-radius: 20px;
+  display: flex;
+  backdrop-filter: blur(4px);
+  justify-content: center;
+  align-items: center;
+  filter: blur(1px);
+}
+.soon h1 {
+  font-family: "Raleway", system-ui;
+  font-size: 3em;
+  text-align: center;
+  color: white ;
+}
+@media (max-width:767px) {
+  .soon {
+    width: 90%;
+  }
+  .soon h1 {
+    font-size: 2em;
+  }
+}
